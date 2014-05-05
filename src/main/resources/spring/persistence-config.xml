@@ -19,6 +19,7 @@
 		<property name="dataSource" ref="myDataSource" />
 		<property name="configLocation" value="classpath:hibernate.cfg.xml" />
 		<property name="namingStrategy" ref="namingStrategy" />
+		<property name="packagesToScan" value="com.dreamchain.skeleton.model" />
 		<property name="hibernateProperties">
 			<props>
 				<prop key="hibernate.show_sql">false</prop>
