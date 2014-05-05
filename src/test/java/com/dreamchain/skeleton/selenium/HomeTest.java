@@ -23,7 +23,7 @@ public class HomeTest {
 	
 	@AfterClass
 	public static void after() {
-		driver.close();
+		driver.quit();
 	}
 	
 	@Before
